@@ -15,6 +15,7 @@
     "chromatic": "npx chromatic --project-token=chpt_270a0e941e79f88"
   },
   "dependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
     "@tanstack/react-query": "^5.17.12",
     "@tanstack/react-query-devtools": "^5.17.12",
     "next": "^14.0.4",
@@ -24,8 +25,11 @@
     "recoil": "^0.7.7"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^7.6.8",
+    "@storybook/addon-docs": "^7.6.8",
     "@storybook/addon-essentials": "^7.6.8",
     "@storybook/addon-interactions": "^7.6.8",
+    "@storybook/addon-knobs": "^7.0.2",
     "@storybook/addon-links": "^7.6.8",
     "@storybook/addon-onboarding": "^1.0.10",
     "@storybook/blocks": "^7.6.8",
